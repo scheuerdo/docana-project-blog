@@ -1,13 +1,70 @@
 title: Document Analysis Semester Project
-description: This repository is a GitHub Pages template for Document Analysis course projects. 
-show_downloads: True
+description: >
+  Resources, report, and code for our Document Analysis semester project.
+
+baseurl: ""
+url: "https://scheuerdo.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.1"
+minimal_mistakes_skin: "mint" # other options: default, dark, air
+
 plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
   - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
+
+markdown: kramdown
+highlighter: rouge
+
+main_nav:
+  - title: "Home"
+    url: /
+  - title: "Report"
+    url: /report/
+  - title: "Dataset"
+    url: /dataset/
+  - title: "Code"
+    url: /code/
+  - title: "About"
+    url: /about/
+
+collections:
+  dataset:
+    output: true
+  code:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      sidebar: false
+      author_profile: false
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      read_time: true
+      comments: false
+
+logo: "/assets/images/logo.svg"
+search: true
+breadcrumbs: true
+paginate: 5
+
 include:
   - README.md
   - REPORT.md
 
-theme: jekyll-theme-minimal
+exclude:
+  - "vendor"
+  - ".github"
+  - "Gemfile*"
+  - "*.gemspec"
