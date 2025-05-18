@@ -47,6 +47,10 @@ search: true
 breadcrumbs: true
 paginate: 5
 
+footer:
+  links: false
+  show_bottom: false
+
 include:
   - README.md
   - REPORT.md
