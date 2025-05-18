@@ -7,9 +7,6 @@ minimal_mistakes_skin: "sunrise" # other options: default, dark, air
 
 plugins:
   - jekyll-include-cache
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-archives
   - jekyll-relative-links
 
 markdown: kramdown
