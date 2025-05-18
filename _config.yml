@@ -1,59 +1,13 @@
 title: Document Analysis Semester Project
-description: >
-  Resources, report, and code for our Document Analysis semester project.
-
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "sunrise" # other options: default, dark, air
-
+description: This repository is a GitHub Pages template for Document Analysis course projects.
+show_downloads: True
 plugins:
-  - jekyll-include-cache
   - jekyll-relative-links
-
-markdown: kramdown
-highlighter: rouge
-
-main_nav:
-  - title: "Home"
-    url: /
-
-collections:
-  dataset:
-    output: true
-  code:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
-      sidebar: false
-      author_profile: false
-
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      read_time: true
-      comments: false
-
-#logo: "/assets/images/logo.svg"
-search: true
-breadcrumbs: true
-paginate: 5
-
-footer:
-  links: false
-  show_bottom: false
-
+relative_links:
+  enabled: true
+  collections: true
 include:
   - README.md
   - REPORT.md
 
-exclude:
-  - "vendor"
-  - ".github"
-  - "Gemfile*"
-  - "*.gemspec"
+theme: jekyll-theme-minimal
