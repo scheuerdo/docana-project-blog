@@ -5,3 +5,7 @@
 - Topic Modeling: Is the modeled topic of a post related to the subreddit name?
 - Is there a relation between the politeness and the subreddit? Is it positive or negative politeness?
 - The content often starts as a own experience and the summary is oftne more general or it is not clear that it is a personal experience, can we do something with this?
+
+
+New Idea:
+How is the hype around AI refelcted in the data? Title "Did I already say AI?"
