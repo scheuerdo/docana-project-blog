@@ -1,6 +1,10 @@
-# Project Title
+# Did I already say AI?
 
 _Group members: Dominik Scheuer, Name 2, Name 3_
+
+
+- How does sentiment toward AI differ between full posts and TLDRs?
+
 
 ## Introduction
 
